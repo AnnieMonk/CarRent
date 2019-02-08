@@ -4,10 +4,10 @@
 
 /****************************************************************************
 1. SVE KLASE TREBAJU POSJEDOVATI ADEKVATAN DESTRUKTOR
-2. NAMJERNO IZOSTAVLJANJE KOMPLETNIH I/ILI POJEDINIH DIJELOVA DESTRUKTORA KOJI UZROKUJU RUNTIME ERROR ∆E BITI OZNACENO KAO "RE"
-3. SPAäAVAJTE PROJEKAT KAKO BI SE SPRIJE»ILO GUBLJENJE URA–ENOG ZADATKA
-4. NAZIVI FUNKCIJA, TE BROJ I TIP PARAMETARA MORAJU BITI IDENTI»NI ONIMA KOJI SU KORIäTENI U TESTNOM CODE-U, OSIM U SLU»AJU DA POSTOJI ADEKVATAN RAZLOG ZA NJIHOVU MODIFIKACIJU. OSTALE, POMO∆NE FUNKCIJE MOéETE IMENOVATI I DODAVATI PO éELJI.
-5. IZUZETAK BACITE U FUNKCIJAMA U KOJIMA JE TO NAZNA»ENO.
+2. NAMJERNO IZOSTAVLJANJE KOMPLETNIH I/ILI POJEDINIH DIJELOVA DESTRUKTORA KOJI UZROKUJU RUNTIME ERROR √ÜE BITI OZNACENO KAO "RE"
+3. SPA≈†AVAJTE PROJEKAT KAKO BI SE SPRIJE√àILO GUBLJENJE URA√êENOG ZADATKA
+4. NAZIVI FUNKCIJA, TE BROJ I TIP PARAMETARA MORAJU BITI IDENTI√àNI ONIMA KOJI SU KORI≈†TENI U TESTNOM CODE-U, OSIM U SLU√àAJU DA POSTOJI ADEKVATAN RAZLOG ZA NJIHOVU MODIFIKACIJU. OSTALE, POMO√ÜNE FUNKCIJE MO≈ΩETE IMENOVATI I DODAVATI PO ≈ΩELJI.
+5. IZUZETAK BACITE U FUNKCIJAMA U KOJIMA JE TO NAZNA√àENO.
 ****************************************************************************/
 
 using namespace std;
@@ -290,9 +290,9 @@ void main()
 
 		//indeks, naslov, oblast, datum prijave 
 		nastavnici[0]->DodajZavrsniRad("IB130011", "Multimedijalni informacijski sistem za visoko-obrazovnu ustanovu", SoftverskiInzinjering, "01.04.2017");
-		nastavnici[0]->DodajZavrsniRad("IB120051", "Sistem za podröku rada kablovskog operatera", SoftverskiInzinjering, "03.03.2017");
-		nastavnici[1]->DodajZavrsniRad("IB140102", "PraktiËna analiza sigurnosti beûiËnih raËunarskih mreûa", KomunikacijskiSistemi, "22.08.2017");
-		nastavnici[2]->DodajZavrsniRad("IB140002", "Primjena teorije informacija u procesu generisanja kriptografskih kljuËeva", SigurnostInformacijskihSistema, "10.09.2017");
+		nastavnici[0]->DodajZavrsniRad("IB120051", "Sistem za podr≈°ku rada kablovskog operatera", SoftverskiInzinjering, "03.03.2017");
+		nastavnici[1]->DodajZavrsniRad("IB140102", "Prakti√®na analiza sigurnosti be≈æi√®nih ra√®unarskih mre≈æa", KomunikacijskiSistemi, "22.08.2017");
+		nastavnici[2]->DodajZavrsniRad("IB140002", "Primjena teorije informacija u procesu generisanja kriptografskih klju√®eva", SigurnostInformacijskihSistema, "10.09.2017");
 
 		vector<Nastavnik*> komisija;//formira se komisija
 		komisija.push_back(nastavnici[0]);
