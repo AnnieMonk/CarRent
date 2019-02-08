@@ -284,7 +284,7 @@ void main() {
 	cout << crt;
 	Kolekcija<int, double> kolekcija2;
 	kolekcija2 = kolekcija1;
-	kolekcija1.RemoveElement(2);//UMANJITI VELIÈINU NIZA
+	kolekcija1.RemoveElement(2);//UMANJITI VELIÃˆINU NIZA
 	cout << kolekcija2 << crt;
 	if (kolekcija1.getTrenutno() == kolekcija2.getTrenutno())
 		cout << "ISTI BROJ ELEMENATA" << endl;
@@ -339,7 +339,7 @@ void main() {
 	if (prIII.ZakljuciRezultate()) {
 		cout << prIII << crt;
 	};
-	//rezultati ispita se smiju ispisivati jedino ukoliko su prethodno zakljuèeni
+	//rezultati ispita se smiju ispisivati jedino ukoliko su prethodno zakljuÃ¨eni
 
 	Ispit prIII_2(prIII);
 	cout << prIII_2 << crt;
